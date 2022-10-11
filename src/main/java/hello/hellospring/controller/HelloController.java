@@ -13,7 +13,7 @@ public class HelloController {
     public String hello(Model model) {
 
         model.addAttribute("data", "김남주");
-        return "hello";
+        return "templates/hello.html";
     }
 
     @GetMapping("hello-mvc")
